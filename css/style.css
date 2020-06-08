@@ -9,14 +9,18 @@
 *
 * 	Template Style 
 *	Edit this section
-*
+*   HTML Colors
+*   Simpler Lime Green: #7dc394
+*   Scuffed Dark Green: #3d3d3f
+*   Vanilla Gray: #f6f5f3
+*   White-ish: #f9f8fd
 * ======================================================= */
 body {
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
   font-size: 16px;
   font-weight: 400;
-  background: #fafafa;
+  background: #f6f5f3;
   color: gray; }
   body.menu-show {
     overflow: hidden;
@@ -34,13 +38,13 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: #3d3d3f;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: #7dc394; }
   a:focus, a:active {
     outline: none; }
 
@@ -424,7 +428,7 @@ header {
   left: 0;
   right: 0;
   font-size: 250px;
-  color: #f0f0f0;
+  color: #7dc394;
   font-weight: 700; }
   @media screen and (max-width: 768px) {
     .bold {
@@ -1261,7 +1265,7 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: #7dc394; }
 
 #footer {
   padding: 8em 0;
@@ -1278,7 +1282,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: #3d3d3f; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
